@@ -53,7 +53,7 @@ namespace StartWepApiTwo.Controllers
             }
         }
 
-        //yukarıda tanımlanan prefixi bu tanım için yok sayar(~).
+        //Yukarıda tanımlanan prefixi bu tanım için yok sayar(~).
         [Route("~/api/tasks")] 
         public IEnumerable<string> getTasks()
         {
